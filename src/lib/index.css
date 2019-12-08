@@ -1,0 +1,128 @@
+﻿body {
+    margin: 0px;
+}
+
+
+.top-container {
+    height: 7%;
+}
+
+#app {
+    min-width: 1009px;
+}
+
+.index {
+    height: 93%;
+}
+
+.top {
+    background-color: rgb(23,179,163);
+}
+
+.logo {
+    padding-top: 14px;
+    font-size: 21px;
+    padding-left: 16px;
+    color: white;
+    height: 50px;
+}
+
+.info {
+    height: 50px;
+    font-size: 14px;
+    padding-right: 23px;
+}
+
+    .info div {
+        float: right;
+        padding-top: 20px;
+    }
+
+.menu {
+    margin-top: 50px;
+}
+
+.head {
+    width: 48px;
+    height: 40px;
+    font-size: 28px;
+    margin: 0 auto;
+    padding-top: 11px !important;
+    margin-right: 10px;
+}
+
+.el-menu a {
+    text-decoration: none;
+    color: #8a979e;
+}
+
+.el-submenu__title span {
+    color: #8a979e;
+}
+
+.aside {
+    overflow-x: hidden;
+    background-color: rgb(38,50,56);
+}
+
+.el-avatar {
+    margin-left: 10px;
+}
+
+.headtitle {
+    font-size: 27px;
+    margin-top: 4px;
+}
+
+.el-dropdown {
+    padding-top: 0px !important;
+}
+
+.childpage {
+    min-width: 980px;
+}
+
+#menu-item-icon {
+    padding-bottom: 3px;
+}
+
+.el-submenu__title:hover {
+    background-color: rgb(43,55,61) !important;
+}
+
+.el-menu-item:hover {
+    background-color: rgb(43,55,61) !important;
+}
+
+.el-submenu is-active is-opened {
+}
+.is-active.is-opened > .el-submenu__title span {
+    color: white !important;
+}
+
+.is-active.is-opened > .el-submenu__title i {
+    color: white !important;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.router-link-exact-active.router-link-active {
+    color: white !important;
+}
+
+    .router-link-exact-active.router-link-active i {
+        color: white !important;
+    }
+
+.el-submenu.is-active > .el-submenu__title span {
+    color: white !important;
+}
+
+.el-submenu.is-active > .el-submenu__title i {
+    color: white !important;
+}
+
+.deleteChange {
+}

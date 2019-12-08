@@ -1,0 +1,283 @@
+﻿/*通用样式*/
+body {
+    font-family: 'Microsoft YaHei';
+}
+
+.clearfloat {
+    clear: both;
+}
+
+.el-card__header .el-button {
+    float: right;
+    padding: 3px 0;
+}
+
+.headphoto {
+    width: 60px;
+    height: 60px;
+}
+
+/*列表页顶端功能条通用样式*/
+.function-bar {
+    margin: 0 0 10px 0;
+}
+
+    .function-bar > .el-input {
+        width: 200px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    /*.function-bar > .el-input:nth-of-type(2) {
+            margin-left: 10px;
+        }*/
+
+    .function-bar > .el-select {
+        margin-right: 10px;
+    }
+
+    .function-bar > .el-date-editor {
+        margin-right: 10px;
+    }
+
+    .function-bar > .specialInput {
+        margin-right: 0;
+    }
+
+    .function-bar > .el-button:nth-of-type(1) {
+        margin-left: 10px;
+    }
+
+
+/*列表通用样式*/
+.el-table {
+    width: 100%;
+}
+
+.el-pagination {
+    margin: 10px auto;
+    text-align: right;
+}
+
+.button-edit {
+    color: #67C23A;
+}
+
+.button-delete {
+    color: #F56C6C;
+}
+
+.button-bind {
+    color: #E6A23C;
+}
+
+.button-check {
+}
+
+.button-reset {
+    color: #B76FF5;
+}
+
+
+
+/*首页顶端统计信息块样式*/
+.homepageInfo {
+    height: 108px;
+}
+
+    .homepageInfo > .el-card__body {
+        padding: 0px;
+    }
+
+
+.my-icon {
+    width: 80px;
+    height: 80px;
+    font-size: 60px;
+    margin-top: 14px;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 10px;
+    float: left;
+}
+
+    .my-icon > i {
+        margin-top: 10px;
+    }
+
+.homepageInfo-content {
+    float: right;
+}
+
+    .homepageInfo-content > p {
+        margin-block-start: 0;
+        font-size: 16px;
+        font-weight: bold;
+        margin-right: 26px;
+        margin-top: 22px;
+    }
+
+        .homepageInfo-content > p:nth-of-type(1) {
+            color: rgba(0, 0, 0, 0.45);
+        }
+
+        .homepageInfo-content > p:nth-of-type(2) {
+            color: #666666;
+        }
+
+/*首页第二行样式*/
+#homepage-linetwo {
+    margin-top: 25px;
+    height: 400px;
+}
+
+    #homepage-linetwo .el-col {
+        height: 100%;
+    }
+
+    #homepage-linetwo .el-card {
+        height: 100%;
+    }
+
+    #homepage-linetwo .el-card__body:nth-of-type(1) {
+        padding: 0px;
+        min-width: 600px;
+    }
+
+    #homepage-linetwo .el-card__body:nth-of-type(2) span:nth-of-type(odd) {
+        color: #07B44F;
+        float: left;
+    }
+
+    #homepage-linetwo .el-card__body:nth-of-type(2) span:nth-of-type(even) {
+        float: right;
+    }
+
+.latestnews {
+    /*margin: 7px 0 7px 0;*/
+    height: 30px;
+}
+
+/*首页第三行样式*/
+#homepage-linethree {
+    margin-top: 25px;
+}
+
+
+/*Account --> Lawyer*/
+#lawyer .el-form {
+    margin-right: 20%;
+}
+
+/*对话框 --> 穿梭框样式*/
+.dialog_transfer > div {
+    min-width: 900px;
+}
+
+/*上传图片框*/
+.disabled .el-upload--picture-card {
+    display: none;
+}
+
+/*官方样式调整*/
+.el-dialog {
+    min-width: 500px;
+}
+
+.el-dialog__body > .el-form {
+    width: 80%;
+}
+
+.el-radio-group {
+    line-height: 50px;
+    margin-left: 15px;
+}
+
+.el-transfer-panel__header {
+    padding-top: 8px !important;
+}
+
+.setIconLineheight [class^=el-icon-] {
+    line-height: 38px;
+}
+/*element官方辅助样式*/
+.bg-purple-dark {
+    background: #99a9bf;
+}
+
+.bg-purple {
+    background: #d3dce6;
+}
+
+.bg-purple-light {
+    background: #e5e9f2;
+}
+
+.grid-content {
+    border-radius: 4px;
+    min-height: 36px;
+}
+
+.row-bg {
+    padding: 10px 0;
+    background-color: #f9fafc;
+}
+
+.avatar-uploader .el-upload {
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+    .avatar-uploader .el-upload:hover {
+        border-color: #409EFF;
+    }
+
+.avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 178px;
+    height: 178px;
+    line-height: 178px;
+    text-align: center;
+}
+
+.avatar {
+    width: 178px;
+    height: 178px;
+    display: block;
+}
+
+.el-upload--picture-card > .el-icon-plus {
+    line-height: 5;
+}
+
+
+
+/*富文本样式调整*/
+.w-e-menu {
+    /*z-index:10!important;*/
+}
+
+.w-e-text-container {
+    z-index: 10 !important;
+}
+
+/*带禁止项的表单*/
+.forbidForm .is-disabled > .el-input__inner {
+    color: #606266;
+}
+
+.forbidForm .is-disabled > .el-textarea__inner {
+    color: #606266;
+}
+
+.forbidForm .el-upload--picture-card {
+    display: none;
+}
+
+.inputInRate {
+    width: 180px;
+}
