@@ -2,7 +2,7 @@
   <div>
     <el-row :gutter="20">
       <el-col :span="6">
-        <myinfoblock title="用户数1" :number="accountNum" class="el-icon-s-custom" iconcolor="#67C23A"></myinfoblock>
+        <myinfoblock title="用户数" :number="accountNum" class="el-icon-s-custom" iconcolor="#67C23A"></myinfoblock>
       </el-col> 
       <el-col :span="6">
         <myinfoblock title="订单总数" :number="policyNum" class="el-icon-s-claim" iconcolor="#F56C6C"></myinfoblock>
