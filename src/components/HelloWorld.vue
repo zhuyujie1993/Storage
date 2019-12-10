@@ -5,7 +5,7 @@
         <myinfoblock title="用户数1" :number="accountNum" class="el-icon-s-custom" iconcolor="#67C23A"></myinfoblock>
       </el-col> 
       <el-col :span="6">
-        <myinfoblock title="订单总数" :number="policyNum" class="el-icon-s-claim" iconcolor="#F56C6C"></myinfoblock>
+        <myinfoblock title="订单总数2" :number="policyNum" class="el-icon-s-claim" iconcolor="#F56C6C"></myinfoblock>
       </el-col>
       <el-col :span="6">
         <myinfoblock title="保单总额" number="99999" class="el-icon-s-order" iconcolor="#E6A23C"></myinfoblock>
