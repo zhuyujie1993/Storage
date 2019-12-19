@@ -92,8 +92,9 @@ export default {
     var obj = this;
     //get或者post , api为接口地址
     this.$axios({
-      method: "post",
-      url: "/Admin/GetMenu",
+      method: "get",
+      // url: "/Admin/GetMenu",
+       url: "/api/Values/GetMenu",
       data: {
         //get这里应为params
         //请求参数
@@ -102,6 +103,7 @@ export default {
       headers: {} //如果需要添加请求头可在这写
     }).then(res => {
         //res是返回结果
+          console.log(res)
         if (res.Status != "" || res.Status != null) {
           obj.treedata = res.data;
           console.log(obj.treedata)
